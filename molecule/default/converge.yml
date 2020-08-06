@@ -3,7 +3,9 @@
 
   vars:
     authorized_keys:
-      -
+      - user: root
+        key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC2Sr/sfcFUg+s0K0B0X3MZy5a1Cyn48dqExr9afptnkZEVmmjtfOOc5DlxapY1mjS+0dbDZzQI/a8SvintW6XOb8EfaI8LL4z37sQ+5bEYLDw/jlvJfvnn0MAYrcd7q/fGE+pxf3rQn9Jhsxz3NjIbUWcFtZU6FFvMdhnFGP7HaJJcaEfjm+Xi6BUYESzkDN7SVvPnJrc0PpGdKMqFc7iRTJLjuMIxNE2pWUz/Hk+9NSPQBTozem9ItFYtx85gKYWwWoeBpWZRQAX/2KGRWLTjymTge7M1j8/F9W1M24coOeUjUp0B2pwL8xraAyVMxVCUJ+KShZthz5QFppZxQ3qwsIaVvetE1i95tJWVUy4rFHvxzOApTVtx3NuGxDThL/mGzvtnnrSo4dD+YwYmzitSHRcv2g+V7AiB4+HTBZ/JqS3xBGzVRgy8c0aFScII8cXQccYLhJlo0BqS1j8Fi883ACWPAJPgjm4+2mo5I8juJ8q8/uYmh70eoDQ1i784mMK1p3tGc6xC4OW08EYVQoTOXydhW5g+ihS04tEHFdVXEQyrXeCcLIWDxVkD93aJnMj/oJiLJJq8VtxL2W0VRK8Y8YzTtw7HIsFUoDUATkp5sEl4eVKIoFuPgy//+LfXqEfhAcNTteBNd12q750jXQ6LGveQBp0kc12GzdLO4DdFlw==
+
 
   tasks:
     - debug:

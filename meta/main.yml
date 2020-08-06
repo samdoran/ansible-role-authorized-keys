@@ -13,8 +13,17 @@ galaxy_info:
         - 7
         - 8
 
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+        - buster
+
+    - name: Darwin
+      versions:
+        - all
+
   galaxy_tags:
     - ssh
-    - authorized_keys
 
 dependencies: []

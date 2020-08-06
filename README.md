@@ -1,9 +1,9 @@
 Authorized Keys
-=========
+===============
 [![Galaxy](https://img.shields.io/badge/galaxy-samdoran.authorized_keys-blue.svg?style=flat)](https://galaxy.ansible.com/samdoran/authorized_keys)
 [![Build Status](https://travis-ci.com/samdoran/ansible-role-authorized_keys.svg?branch=master)](https://travis-ci.com/samdoran/ansible-role-authorized_keys)
 
-Managed ssh `authorized_keys`.
+Manage ssh `authorized_keys`.
 
 Requirements
 ------------
@@ -15,13 +15,13 @@ Role Variables
 
 | Name              | Default Value       | Description          |
 |-------------------|---------------------|----------------------|
-| `` | `` |  |
+| `authorized_keys` | `[]` | List of keys to be added or removed. See `defaults/main.yml` for examples. |
 
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+None
 
 Example Playbook
 ----------------
