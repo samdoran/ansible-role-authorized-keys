@@ -1,1 +1,10 @@
 authorized_keys: []
+  # - user: bob
+  #   key: ssh-rsa AAAA...
+  #   comment:                  # optional
+  #   key_options:              # optional
+  #   exclusive:                # optional
+  #   manage_dir:               # optional
+  #   path:                     # optional
+  #   state:                    # optional
+  #   validate_certs:           # optional
