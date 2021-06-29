@@ -1,7 +1,6 @@
 Authorized Keys
 ===============
 [![Galaxy](https://img.shields.io/badge/galaxy-samdoran.authorized_keys-blue.svg?style=flat)](https://galaxy.ansible.com/samdoran/authorized_keys)
-[![Build Status](https://travis-ci.com/samdoran/ansible-role-authorized_keys.svg?branch=main)](https://travis-ci.com/samdoran/ansible-role-authorized_keys)
 
 Manage ssh `authorized_keys`.
 
